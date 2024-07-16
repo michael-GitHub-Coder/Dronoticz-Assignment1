@@ -10,7 +10,7 @@
 .header-background {
   height: 100vh;
   width: 100%;
-  background-image: url("./header.jpg");
+  background-image: url("../public/header.jpg");
   background-position: cover;
   background-position: relative;
   background-size: 100% auto;
