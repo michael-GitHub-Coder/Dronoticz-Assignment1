@@ -287,7 +287,7 @@ button [type=submit] {
 @media (max-width: 780px) {
 
   .header-background {
-    background-image: url("./header.jpg");
+    background-image: url("../public/header.jpg");
     background-position: cover;
     background-position: relative;
     background-size: auto auto;
@@ -439,6 +439,8 @@ button [type=submit] {
     position: relative;
     background-color: #ffffff;
     height: 110px;
+    padding-left:12px;
+    padding-right:12px;
   }
 
   .container {
