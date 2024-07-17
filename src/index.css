@@ -115,7 +115,8 @@ button[type=submit] {
 
 .rectangle2 {
   background-color: #F8F8F8;
-  height: 1780px;
+  height: auto;
+  padding-bottom: 25px;
   width: 100vw;
 }
 
@@ -229,6 +230,8 @@ h3 {
 
 .text-center {
   text-align: center;
+  background-color: #F8F8F8;
+  padding: 25px;
 }
 
 h4 {
@@ -281,7 +284,7 @@ button [type=submit] {
   padding: 0 20px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
 
   .header-background {
     background-image: url("./header.jpg");
@@ -305,19 +308,26 @@ button [type=submit] {
 
   .Hero-subheader {
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-family: "Inter";
     font-weight: 100;
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .rectangle {
     position: relative;
-    margin-top: 25px;
-    margin-left: 37%;
+    margin-top: 15px;
+    margin-left: 45%;
     height: 5px;
-    width: 100px;
+    width: 50px;
     background-color: #060606;
+  }
+
+  .rectangle2 {
+    background-color: #F8F8F8;
+    height: auto;
+    padding-bottom: 25px;
+    width: 100vw;
   }
 
   li button[type=button] {
@@ -356,10 +366,10 @@ button [type=submit] {
 
   .card2-grid {
     display: grid;
-    grid-template-columns: 250px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     width: 100%;
-    row-gap: 0px;
     background-color: #F8F8F8;
+    height: auto;
   }
 
   .drone5 {
@@ -391,6 +401,7 @@ button [type=submit] {
   .text-center {
     text-align: center;
     margin-top: 10px;
+    background-color: #F8F8F8;
   }
 
   h4 {
@@ -414,6 +425,12 @@ button [type=submit] {
 
   button [type=submit] {
     margin-top: 25px;
+  }
+  h4 {
+    margin-top: 40px;
+    font-weight: 10;
+    font-size: 25px;
+    font-family: "Inter";
   }
 
   /* Footer */
