@@ -3,13 +3,17 @@
   padding: 0;
   margin: 0;
   font-family: "Inter";
+  /* overflow-x: hidden; */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*header*/
 
 .header-background {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-image: url("../public/header.jpg");
   background-position: cover;
   background-position: relative;
@@ -54,7 +58,7 @@ span {
 
 .Hero-header {
   text-align: center;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: 400;
   font-family: "Inter";
   padding-top: 18%;
@@ -62,10 +66,10 @@ span {
 
 .Hero-subheader {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Inter";
   font-weight: 100;
-  padding-top: 80px;
+  padding-top: 45px;
 }
 
 button {
@@ -113,39 +117,12 @@ button[type=submit] {
   background-color: #060606;
 }
 
-.rectangle2 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-top: 80px;
-  justify-content: space-between;
-  padding: 25px;
-  position: relative;
-  column-gap: 25px;
-  justify-content: center;
-  width: 80vw;
-}
-
 .section-header {
   text-align: center;
   font-size: 32px;
   font-family: "Inter";
   font-weight: 100;
   padding-top: 45px;
-}
-
-.section-container {
-  height: 400px;
-  width: 400px;
-  padding-left: 90px;
-  padding-top: 90px;
-  padding-right: 90px;
-}
-
-.card {
-  width: 250px;
-  height: 376px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3);
 }
 
 .in-card {
@@ -156,6 +133,8 @@ button[type=submit] {
 .in-card-padding {
   text-align: center;
   padding-top: 10px;
+  width: 5px;
+  overflow-wrap: anywhere;
 }
 
 .rectangle-in-card {
@@ -168,12 +147,30 @@ button[type=submit] {
   background-color: #060606;
 }
 
+.card-box{
+  background-color: #F8F8F8;
+  height: auto;
+  padding-bottom: 25px;
+  width: 100vw;
+}
+
 .card-grid {
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 80px;
+  justify-content: space-between;
+  padding: 25px;
+  position: relative;
   column-gap: 25px;
-  width: 70vw;
-  padding-left: 300px;
+  justify-content: center;
+  width: 80vw;
+}
+
+.card {
+  width: 250px;
+  height: 376px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3);
 }
 
 p {
@@ -292,7 +289,7 @@ button [type=submit] {
 @media (max-width: 780px) {
 
   .header-background {
-    background-image: url("../public/header.jpg");
+    background-image: url("./header.jpg");
     background-position: cover;
     background-position: relative;
     background-size: auto auto;
@@ -444,8 +441,6 @@ button [type=submit] {
     position: relative;
     background-color: #ffffff;
     height: 110px;
-    padding-left:12px;
-    padding-right:12px;
   }
 
   .container {
