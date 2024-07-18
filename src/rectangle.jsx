@@ -20,7 +20,7 @@ function Rectangle() {
                     <div className="card">
                         <img src="./drone3.jpg" className="in-card" />
                         <div className="rectangle-in-card"></div>
-                        <p className="in-card-apdding">Robotics and Artificaila Intellingence</p>
+                        <p className="in-card-apdding">Robotics and Artificial Intelligence</p>
                     </div>
                 </div>
                 <div className="section-container">
