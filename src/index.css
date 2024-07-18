@@ -114,10 +114,15 @@ button[type=submit] {
 }
 
 .rectangle2 {
-  background-color: #F8F8F8;
-  height: auto;
-  padding-bottom: 25px;
-  width: 100vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 80px;
+  justify-content: space-between;
+  padding: 25px;
+  position: relative;
+  column-gap: 25px;
+  justify-content: center;
+  width: 80vw;
 }
 
 .section-header {
