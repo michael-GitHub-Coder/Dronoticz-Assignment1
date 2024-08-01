@@ -158,7 +158,7 @@ button[type=submit] {
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin-top: 80px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 25px;
   position: relative;
   column-gap: 25px;
