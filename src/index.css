@@ -45,13 +45,6 @@ a {
   color: black;
 }
 
-button {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 span {
   color: #CBDEEC;
 }
@@ -78,8 +71,8 @@ button {
   color: black;
   text-decoration: none;
   background-color: transparent;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -90,8 +83,8 @@ button[type=submit] {
   color: black;
   text-decoration: none;
   background-color: transparent;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 5px;
   padding-top: 5px;
   margin-top: 25px;
@@ -161,7 +154,7 @@ button[type=submit] {
   justify-content: space-evenly;
   padding: 25px;
   position: relative;
-  column-gap: 25px;
+  column-gap: 40px;
   justify-content: center;
   width: 80vw;
 }
@@ -265,13 +258,12 @@ button [type=submit] {
   position: relative;
   background-color: #ffffff;
   height: 110px;
-
 }
 
 .container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -292,7 +284,7 @@ button [type=submit] {
 @media (max-width: 780px) {
 
   .header-background {
-    background-image: url("./header.jpg");
+    background-image: url("../public/header.jpg");
     background-position: cover;
     background-position: relative;
     background-size: auto auto;
