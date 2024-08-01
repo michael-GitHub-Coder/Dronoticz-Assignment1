@@ -1,7 +1,7 @@
 
-import facebook from "../public/facebook-original.svg";
-import linkedin from "../public/linkedin-original.svg";
-import pinterest from "../public/pinterest.svg";
+import facebook from "../public/facebook_icon.jpg";
+import linkedin from "../public/linked_icon.jpg";
+import pinterest from "../public/pic_icon.jpg";
 function Footer() {
 
     return (

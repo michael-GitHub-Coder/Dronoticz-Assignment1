@@ -7,7 +7,7 @@ function Rectangle() {
 
         <div className="card-box">
             <h3 className="section-header ">LARTEST ARTICLES</h3>
-            <div className="rectangle" ></div>
+            <div className="rectangle-5" ></div>
             <div className="card-grid">
                 <div className="section-container">
                     <div className="card">
